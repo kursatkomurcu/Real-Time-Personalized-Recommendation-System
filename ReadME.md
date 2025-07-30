@@ -15,6 +15,8 @@ Visual Output: Displays recommended books with details and images.
 ## Run
 `streamlit run app.py`
 
+![App](https://github.com/kursatkomurcu/Real-Time-Personalized-Recommendation-System/blob/main/app.png)
+
 ## Loss Function
 I chose Bayesian Personalized Ranking Loss (bpr_loss) because it directly optimizes the ranking of recommended items rather than just predicting ratings. BPR loss is especially effective for implicit feedback data and helps the model learn to rank items a user prefers higher than those they do not. This makes it well-suited for real-world recommendation systems where the main goal is to show the most relevant items at the top.
 
